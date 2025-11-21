@@ -1,0 +1,93 @@
+body{
+    color: rgb(65, 60, 60);
+    font-family: sans-serif;
+    width: 600px;
+    margin: 0 auto 40px;
+    background-color: salmon;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+th, td{
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(129, 233, 198);
+}
+
+form button{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1, h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#caja{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#cajadatos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    border: 3px solid rgb(61, 59, 59);
+    border-radius:10px;
+    background-color: rgb(166, 188, 207);
+}
+
+#enviar:hover{
+    background-color: #6cc4ec;
+}
+
+#calcular:hover{
+    background-color: rgb(209, 199, 111);
+}
+
+#comprar:hover{
+    background-color: greenyellow;
+}
+
+#box{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid rgb(44, 41, 41);
+    border-radius: 5px;
+    background-color: blanchedalmond;
+}
