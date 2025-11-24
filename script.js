@@ -85,3 +85,20 @@ function LimpiarForm(){
     cantidad.textContent = ""
     precio.textContent = ""
 }
+
+const mascot = document.querySelector(".mascot");
+
+document.addEventListener("mousemove", (e) => {
+    const width = window.innerWidth;
+    const pos = e.clientX;
+
+    if (pos < width * 0.33) {
+        mascot.textContent = "<(◉_◉)";   // mira a la izquierda
+    } 
+    else if (pos > width * 0.66) {
+        mascot.textContent = "(◉_◉)>";   // mira a la derecha
+    }
+    else {
+        mascot.textContent = "(◉_◉)";    // centro
+    }
+});
